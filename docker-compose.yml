@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  small-reactjs-frontend:
+    build: .
+    container_name: small-reactjs-project_container
+    ports:
+      - "80:80"
+    restart: always
+
+
